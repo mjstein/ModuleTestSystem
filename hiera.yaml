@@ -1,0 +1,7 @@
+:backends:
+  - yaml
+:hierarchy:
+  - "kube"
+:yaml:
+     :datadir: role/
+:puppet::datasource: params

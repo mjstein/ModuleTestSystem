@@ -1,0 +1,29 @@
+I, [2016-01-08T18:29:53.549896 #6901]  INFO -- Kitchen: -----> Starting Kitchen (v1.4.2)
+E, [2016-01-08T18:29:53.550199 #6901] ERROR -- Kitchen: ------Exception-------
+E, [2016-01-08T18:29:53.550225 #6901] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2016-01-08T18:29:53.550239 #6901] ERROR -- Kitchen: Message: Kitchen YAML file /home/despot/coding/kubernetes_trial/test/integration/default/serverspec/localhost/.kitchen.yml does not exist.
+E, [2016-01-08T18:29:53.550252 #6901] ERROR -- Kitchen: ------Backtrace-------
+E, [2016-01-08T18:29:53.550263 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/test-kitchen-1.4.2/lib/kitchen/loader/yaml.rb:74:in `read'
+E, [2016-01-08T18:29:53.550275 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/test-kitchen-1.4.2/lib/kitchen/config.rb:145:in `data'
+E, [2016-01-08T18:29:53.550286 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/test-kitchen-1.4.2/lib/kitchen/config.rb:124:in `suites'
+E, [2016-01-08T18:29:53.550297 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/test-kitchen-1.4.2/lib/kitchen/config.rb:175:in `filter_instances'
+E, [2016-01-08T18:29:53.550310 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/test-kitchen-1.4.2/lib/kitchen/config.rb:134:in `build_instances'
+E, [2016-01-08T18:29:53.550323 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/test-kitchen-1.4.2/lib/kitchen/config.rb:110:in `instances'
+E, [2016-01-08T18:29:53.550334 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/test-kitchen-1.4.2/lib/kitchen/command.rb:115:in `filtered_instances'
+E, [2016-01-08T18:29:53.550346 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/test-kitchen-1.4.2/lib/kitchen/command.rb:145:in `parse_subcommand'
+E, [2016-01-08T18:29:53.550357 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/test-kitchen-1.4.2/lib/kitchen/command/action.rb:38:in `block in call'
+E, [2016-01-08T18:29:53.550368 #6901] ERROR -- Kitchen: /usr/lib/ruby/2.2.0/benchmark.rb:288:in `measure'
+E, [2016-01-08T18:29:53.550379 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/test-kitchen-1.4.2/lib/kitchen/command/action.rb:37:in `call'
+E, [2016-01-08T18:29:53.550390 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/test-kitchen-1.4.2/lib/kitchen/cli.rb:56:in `perform'
+E, [2016-01-08T18:29:53.550401 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/test-kitchen-1.4.2/lib/kitchen/cli.rb:171:in `block (2 levels) in <class:CLI>'
+E, [2016-01-08T18:29:53.550412 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2016-01-08T18:29:53.550425 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2016-01-08T18:29:53.550437 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/test-kitchen-1.4.2/lib/kitchen/cli.rb:308:in `invoke_task'
+E, [2016-01-08T18:29:53.550448 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2016-01-08T18:29:53.550459 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2016-01-08T18:29:53.550470 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/test-kitchen-1.4.2/bin/kitchen:13:in `block in <top (required)>'
+E, [2016-01-08T18:29:53.550484 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/test-kitchen-1.4.2/lib/kitchen/errors.rb:154:in `with_friendly_errors'
+E, [2016-01-08T18:29:53.550503 #6901] ERROR -- Kitchen: /var/lib/gems/2.2.0/gems/test-kitchen-1.4.2/bin/kitchen:13:in `<top (required)>'
+E, [2016-01-08T18:29:53.550522 #6901] ERROR -- Kitchen: /usr/local/bin/kitchen:23:in `load'
+E, [2016-01-08T18:29:53.550542 #6901] ERROR -- Kitchen: /usr/local/bin/kitchen:23:in `<main>'
+E, [2016-01-08T18:29:53.550562 #6901] ERROR -- Kitchen: ----------------------

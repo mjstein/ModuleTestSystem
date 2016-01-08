@@ -1,0 +1,22 @@
+---
+  driver:
+    name: vagrant
+  provisioner:
+    require_chef_omnibus: false
+    name: puppet_apply
+    manifests_path: ./manifests
+    modules_path: ./modules
+    hiera_data_path: .
+    puppet_apply_command: "sudo -E /opt/puppetlabs/bin/puppet apply /tmp/kitchen/manifests/site.pp --modulepath=/tmp/kitchen/modules --fileserverconfig=/tmp/kitchen/fileserver.conf"
+  platforms:
+   - name: kube-master
+     driver_plugin: vagrant
+     driver_config:
+       box: centos-7.2-64-puppet
+       box_url: https://atlas.hashicorp.com/puppetlabs/boxes/centos-7.2-64-puppet/versions/1.0.0/providers/virtualbox.box 
+       network:
+          - ["private_network", {ip: "173.16.32.11"}]
+       provision:
+          - ["shell", {"inline", "echo hello"}]
+  suites:
+   - name: default

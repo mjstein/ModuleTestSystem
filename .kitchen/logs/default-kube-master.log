@@ -1,0 +1,15 @@
+I, [2016-01-08T19:43:43.447287 #6680]  INFO -- default-kube-master: -----> Converging <default-kube-master>...
+I, [2016-01-08T19:43:43.447747 #6680]  INFO -- default-kube-master: Preparing files for transfer
+I, [2016-01-08T19:43:43.447814 #6680]  INFO -- default-kube-master: Preparing modules
+I, [2016-01-08T19:43:43.447976 #6680]  INFO -- default-kube-master: Resolving module dependencies with Librarian-Puppet 2.2.1...
+I, [2016-01-08T19:43:43.571070 #6680]  INFO -- default-kube-master: Preparing manifests
+I, [2016-01-08T19:43:43.571311 #6680]  INFO -- default-kube-master: Preparing files
+I, [2016-01-08T19:43:43.571402 #6680]  INFO -- default-kube-master: nothing to do for files
+I, [2016-01-08T19:43:43.571489 #6680]  INFO -- default-kube-master: Preparing hiera
+I, [2016-01-08T19:43:43.571689 #6680]  INFO -- default-kube-master: Preparing hiera data
+I, [2016-01-08T19:43:44.028433 #6680]  INFO -- default-kube-master: Finished Preparing files for transfer
+I, [2016-01-08T19:43:44.028651 #6680]  INFO -- default-kube-master: Installing puppet, will try to determine platform os
+I, [2016-01-08T19:43:44.188096 #6680]  INFO -- default-kube-master: -----> Installing Chef Omnibus to install busser to run tests
+I, [2016-01-08T19:43:44.188172 #6680]  INFO -- default-kube-master: downloading https://www.getchef.com/chef/install.sh
+I, [2016-01-08T19:43:44.188193 #6680]  INFO -- default-kube-master:   to file /tmp/install.sh
+I, [2016-01-08T19:43:44.188216 #6680]  INFO -- default-kube-master: trying wget...

@@ -1,0 +1,5 @@
+---
+#  kubernetes::master_name: '173.16.32.11'
+#  kubernetes::minion_name:  ['173.16.32.12','173.16.32.13']
+#  kubernetes::populate_hosts: true
+

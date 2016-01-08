@@ -1,0 +1,6 @@
+---
+hostname: 127.0.0.1
+port: '2222'
+username: vagrant
+ssh_key: "/home/despot/coding/kubernetes_trial/.kitchen/kitchen-vagrant/kitchen-kubernetes_trial-default-kube-master/.vagrant/machines/default/virtualbox/private_key"
+last_action: create

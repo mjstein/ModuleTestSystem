@@ -1,0 +1,15 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    puppetlabs-stdlib (4.10.0)
+
+PATH
+  remote: ./kubernetes
+  specs:
+    chmjs-kubernetes (0.3.0)
+      puppetlabs-stdlib (>= 1.0.0)
+
+DEPENDENCIES
+  chmjs-kubernetes (>= 0)
+  puppetlabs-stdlib (>= 0)
+
