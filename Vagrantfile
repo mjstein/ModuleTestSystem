@@ -6,9 +6,9 @@ domain = 'kubernetes.com'
 boxname = 'centos/7'
 
 puppet_nodes = [
-  {:hostname => 'kube-master',  :ip => '173.16.32.11', :box => boxname, :ram => 2048},
-  {:hostname => 'kube-minion1',  :ip => '173.16.32.12', :box => boxname, :ram => 1024},
-  {:hostname => 'kube-minion2',  :ip => '173.16.32.13', :box => boxname, :ram => 1024},
+  {:hostname => 'kube-master',  :ip => '173.16.33.11', :box => boxname, :ram => 2048},
+  {:hostname => 'kube-minion1',  :ip => '173.16.33.12', :box => boxname, :ram => 1024},
+  {:hostname => 'kube-minion2',  :ip => '173.16.33.13', :box => boxname, :ram => 1024},
 ]
 
 Vagrant.configure("2") do |config|
